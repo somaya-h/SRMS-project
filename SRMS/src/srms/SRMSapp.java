@@ -8,7 +8,7 @@ public class SRMSapp {
 
         Scanner input = new Scanner(System.in);
 
-        StudentMangager manager = new StudentMangager();
+        StudentManager manager = new StudentManager();
 
         while (true) {
             System.out.println("\n===== Student Record Management System =====");
@@ -43,7 +43,7 @@ public class SRMSapp {
                     int year = input.nextInt();
 
                     Student s = new Student(id, name, gpa, dept, year);
-                    manager.addStudent(s);
+                    manager.addstudent(s);
                     break;
 
                 case 2:
