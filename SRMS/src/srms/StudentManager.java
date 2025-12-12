@@ -10,6 +10,10 @@ class DuplicateIDException extends Exception {
 public class StudentManager {
     
     private final ArrayList<Student> students;
+
+    public ArrayList<Student> getStudents() {
+        return students;
+    }
     
     public StudentManager(){
         students = new ArrayList<>();
