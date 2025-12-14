@@ -40,7 +40,7 @@ public class FileHandler {
                 int year = Integer.parseInt(data[4].trim());
 
                 Student s = new Student(studentId, name, gpa, department, year);
-                manager. addstudent(s);
+                manager. addStudent(s);
             }
         } catch (FileNotFoundException e) {
             System.out.println("File not found");
